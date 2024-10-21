@@ -5,6 +5,7 @@ export default function Image({ image }) {
 	return (
 		<div className={styles.wrapper}>
 			{image ? <img src={image} alt='news' className={styles.image} /> : null}
+			<h1>asd</h1>
 		</div>
 	)
 }
